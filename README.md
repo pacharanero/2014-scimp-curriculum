@@ -8,5 +8,5 @@ Usage
 -----
 * download the .zip archive to a folder on your computer.
 * unpack the archive
-* navigate to /scimp_curriculum/reveal.js/
+* navigate to scimp_curriculum/
 * open index.html (should automatically open in a browser)
