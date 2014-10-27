@@ -1,0 +1,80 @@
+					<section>
+						<h2>Personal Digital Literacy</h2>
+						<ul>
+							<li>personal and patient digital security, eg password strength, 'locking' computers when away from desk, remove smartcard</li>
+							<li>encrypting patient data in situ and in transit when appropriate</li>
+							<li>mobile devices including digital cameras, video recording equipment, and smartphones/tablets</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>System-Specific Training</h2>
+						<ul>
+							<li>Systems suppliers and independent training providers have an important role in training GPs. Learning ‘on the hoof’ between patients is inadequate and potentially risky.</li>
+							<li>Limits of workplace based training in this regard need to be accepted. GP trainers will usually only be able to teach one system, and there are differences between training provided by a GP trainer and training provided by the System supplier</li>
+							<li>New GPs should have training in more than one system in order to provide them with the skills needed to safely work across different GP practices. Suggest at least two of the commonly available GP clinical systems (Vision, SystmOne, EMIS variants), and at least one of these to an advanced level</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h2>specific skills</h2>
+						<ul>
+							<li>input a consultation using structure (eg EMIS’ Problem, History, Comment fields), clinical coding (eg Read codes) and free text.</li>
+							<li>the importance of the plan and goals in the use of the Medical Record, it should be a functioning document facilitating care across a team and not just an archive of information.</li>
+							<li>prescribe medications acutely and on repeat. Issue repeats</li>
+							<li>perform a medication review and record this (note - this is clearly not just an Informatics skill)</li>
+							<li>record clinical measurements  (BP, BMI, weight etc) in the correct place in the record so the system can identify the data.</li>
+							
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li>use the system’s reporting and audit tools in order to extract data, but then (and more importantly) how to analyse this data practically, and differentiate between genuine observations and artefact when looking for personal and practice-wide patterns. The practice of extracting coded information teaches the GP a lot about data quality, by closing the ‘data usage loop’.</li>
+							<li>setting up and using Templates to standardise and speed up data entry</li>
+							<li>be aware of the potential place for speech recognition and digital dictation.  A defined short training program with protected time for this is important.</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>‘Generic’ Informatics within the practice</h2>
+					</section>
+
+					<section>
+						<h2>How to consult with a computer in the room</h2>
+						<ul>
+							<li>‘triadic’ consultation, techniques for interacting with patient / computer</li>
+							<li>Sharing the screen and ways to reinforce health messages using the computer</li>
+							<li>will the way we do this evolve with new devices?</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Clinical coding</h2>
+						<ul>
+							<li>clinical coding on a generic level - adv & disadv over free text</li>
+							<li>limitations of clinical coding and when free text is preferable</li>
+							<li>understanding of the most common clinical coding terminologies (Read2, CTV3, SNOMED-CT) and at least know which terminology is used by their system.</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Structured records</h2>
+						<ul>
+							<li>problem orientation - grouping information under a Problem heading</li>
+							<li>structured data entry - eg templates</li>
+							<li>clinical measurements - recording in the appropriate place allows the system to reuse this information properly</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Data quality</h2>
+						<ul>
+							<li>data quality as a general concept, understand that the usefulness of the information in a record (both for direct care and secondary uses) is adversely affected by poor data quality</li>
+							<li>recognise some common record errors that result in poor or unreliable records</li>
+							<li>good ‘housekeeping’ of a medical record</li>
+							<li>Importance of correct attribution of entries (person, date, time, location and setting)</li>
+							<li>correction of errors in records, inactivating problems  ‘housekeeping’ of records to keep them tidy</li>
+							<li>evolution of a diagnosis from a general “symptom” code at first presentation, to a specific diagnosis over time.</li>
+						</ul>
+					</section>
