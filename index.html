@@ -13,23 +13,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css" />
     <link
       rel="stylesheet"
-      href="reveal.js/dist/theme/solarized.css"
+      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/solarized.css"
       id="theme"
     />
-
-    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-    <script>
-      if (window.location.search.match(/print-pdf/gi)) {
-        var link = document.createElement("link");
-        link.rel = "stylesheet";
-        link.type = "text/css";
-        link.href = "css/print/pdf.css";
-        document.getElementsByTagName("head")[0].appendChild(link);
-      }
-    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/monokai.css" />
     <!--[if lt IE 9]>
       <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
@@ -266,7 +257,11 @@
       </div>
     </div>
 
-    <script src="reveal.js/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
     <script>
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
@@ -280,48 +275,8 @@
         // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
         // parallaxBackgroundSize: '2100px 900px',
 
-        // Optional libraries used to extend on reveal.js
-        dependencies: [
-          {
-            src: "reveal.js/lib/js/classList.js",
-            condition: function () {
-              return !document.body.classList;
-            },
-          },
-          {
-            src: "reveal.js/plugin/markdown/marked.js",
-            condition: function () {
-              return !!document.querySelector("[data-markdown]");
-            },
-          },
-          {
-            src: "reveal.js/plugin/markdown/markdown.js",
-            condition: function () {
-              return !!document.querySelector("[data-markdown]");
-            },
-          },
-          {
-            src: "reveal.js/plugin/highlight/highlight.js",
-            async: true,
-            callback: function () {
-              hljs.initHighlightingOnLoad();
-            },
-          },
-          {
-            src: "reveal.js/plugin/zoom-js/zoom.js",
-            async: true,
-            condition: function () {
-              return !!document.body.classList;
-            },
-          },
-          {
-            src: "reveal.js/plugin/notes/notes.js",
-            async: true,
-            condition: function () {
-              return !!document.body.classList;
-            },
-          },
-        ],
+        hash: true,
+        plugins: [RevealMarkdown, RevealHighlight, RevealZoom, RevealNotes],
       });
     </script>
   </body>
